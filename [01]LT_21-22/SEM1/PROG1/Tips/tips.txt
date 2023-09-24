@@ -1,0 +1,76 @@
+// DA CARATTERE A VALORE UNICODE 
+char c1 = 'a';
+int x = c1;
+
+// DA VALORE UNICODE A CARATTERE
+char c2 = (char) (c1 + 2);
+
+// PASSARE DA UN CARATTERE MINUSCOLO AD UN CARATTERE MAIUSCOLO
+char lower = 'g';
+char upper = (char) (lower - 32);
+
+// PASSARE DA UN CARATTERE MAIUSCOLO AD UN CARATTERE MINUSCOLO
+upper = 'H';
+lower = (char) (upper + 32);
+
+// CONVERTIRE UN CARATTERE DI CIFRA NELL'INTERO CHE RAPPRESENTA LA CIFRA.
+char cifraCar = '4';
+int cifraNum = cifraCar - '0';
+
+// LUNGHEZZA DI UNA STRINGA 
+String stringa = "abcdefgh";
+int l = stringa.length();
+
+// PRIMO E ULTIMO CARATTERE 
+char primo = stringa.charAt(0);
+char ultimo = stringa.charAt(l- 1);
+
+// SOTTOSTRINGA DA x a y
+int x = 0;
+int y = 3;
+sub_stringa = stringa.substring(x,y)
+
+// SOTTOSTRINGA DA x alla FINE
+int x = 3;
+sub_stringa = stringa.substring(x)
+
+// PRIMA OCCORRENZA DI UN CARATTERE c
+char c = "s";
+int index_of_m = saluto.indexOf(c);
+
+// ULTIMA OCCORRENZA DI UNA CARATTERE c
+char c = "s";
+int index_of_m = saluto.lastIndexOf(c);
+
+// SOSTITUZIONE NELLA STRINGA
+String s = "Valentina";
+s = s.replace('n', 'r');
+( s = Valertira )
+
+// COMPARAZIONE STRINGHE ( no minuscolo/maiuscolo )
+String risposta="si";
+bolean x = risposta.equalsIgnoreCase("si");
+( x = true )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
