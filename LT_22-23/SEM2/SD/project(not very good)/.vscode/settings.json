@@ -1,0 +1,6 @@
+{
+  "java.debug.settings.onBuildFailureProceed": true,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.fontFamily": "MesloLGS NF"
+}

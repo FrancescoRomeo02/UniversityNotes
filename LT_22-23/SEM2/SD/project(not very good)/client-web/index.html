@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <head>
+    <title>Subscribed Users</title>
+  </head>
+
+  <body>
+    <div class="choice">
+      <button class="choice__btn", onClick="gestisci()">Gestisci prenotazioni</button>
+    </div>
+    <div id="movies"></div>
+    <div id="week" style="display: none;">
+      <h2>Seleziona il giorno della settimana</h2>
+      <div class="choice">
+        <button class="week__btn" onClick="getMovies('monday')">Lunedì</button>
+        <button class="week__btn" onClick="getMovies('tuesday')">Martedì</button>
+        <button class="week__btn" onClick="getMovies('wednesday')">Mercoledì</button>
+        <button class="week__btn" onClick="getMovies('thursday')">Giovedì</button>
+        <button class="week__btn" onClick="getMovies('friday')">Venerdì</button>
+        <button class="week__btn" onClick="getMovies('saturday')">Sabato</button>
+        <button class="week__btn" onClick="getMovies('sunday')">Domenica</button>
+      </div>
+    </div>
+    <div id="reservations"></div>
+    <script src="js/script.js"></script>
+
+  </body>
+
+</html>
